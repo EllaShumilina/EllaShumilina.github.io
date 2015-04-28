@@ -9,45 +9,26 @@
   margin: 0.5in;
 }
 
-nav, .small, .social li{
+nav,.copyright, .social li{
   display: none;
 }
 
 
-h1 {
-  font-size: 32pt;
-}
-
-h2 {
-  font-size: 13pt;
-}
-
 h3 {
-  font-size: 18pt;
+  font-size: 16pt;
+  text-transform: uppercase;
 
 }
 
-h1, h2, h3 {
-  line-height: 10pt;
-}
-
-h4 {
-  line-height: 10pt;
-}
-
-
-p {
-  line-height: 2pt;
-}
-
-article span {
-  display: block;
-  font-weight: normal;
-  font-style: italic;
-  margin-top: 0.07in;
-
+.small {
+  width: 100pt;
+  height:80pt;
 }
 
 a {
   text-decoration: none;
+}
+
+h3, h4, .date {
+  line-height: 10pt;
 }
