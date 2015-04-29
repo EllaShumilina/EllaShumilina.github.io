@@ -208,3 +208,7 @@ h3:first-child {
   width: 312px;
   height: 194px;
 }
+
+.wider {
+  width: 320px;
+}
