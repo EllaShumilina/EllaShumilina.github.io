@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+ <html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Spacely Sprockets</title>
+    <link href="css/screen.css" media="screen" rel="stylesheet" />
+  </head>
+<body>
+  <div id="container">
+  <header>
+  <h1>Spacely Sprockets</h1>
+  <h2>Keeping the universe turning since 1953</h2>
+  </header>
+
+<nav>
+     <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="company.html">Our Company</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+     </ul>
+</nav>
+
+<h3>Contact Us</h3>
+
+<div class="shrink">
+<p>Thank you for your interest in Spacely Sprockets. To get in touch with us, please fill out the form below. One of our representatives will contact you as soon as possible.</p>
+</div>
+
+<p>* required</p>
+
+<form>
+  Name *<br>
+  <input type="text" name="name">
+  <br>
+  Company:<br>
+  <input type="text" name="company">
+  <br>
+  Address:<br>
+  <input type="text" name="address">
+  <br>
+  City:<br>
+  <input type="text" name="city">
+  <br>
+  State:<br>
+  <input type="text" name="state">
+  <br>
+  Zip:<br>
+  <input type="text" name="zip">
+  <br>
+  Telephone *<br>
+  <input type="text" name="phone">
+  <br>
+  Email *<br>
+  <input type="text" name="email">
+  <br>
+
+  <p>
+    <label for="industry">
+    Please describe your industry:
+    </labeL>
+  <select name="industry" id="industry">
+    <option value="aeronautics">Aeronautics</option>
+    <option value="astronautics">Astronautics</option>
+    <option value="engineering">Engineering</option>
+    <option value="manufacturing">Manufacturing</option>
+  </select>
+  </p>
+
+<p>
+    Which product(s) are you most interested in?
+    <br />
+  <label>
+    <input type="checkbox" name="product" value="alpha" /> Alpha
+  </label>
+  <label>
+    <input type="checkbox" name="product" value="beta" /> Beta
+  </label>
+  <label>
+    <input type="checkbox" name="product" value="gamma"/> Gamma
+  </label>
+  <label>
+    <input type="checkbox" name="product" value="delta"/> Delta
+  </label>
+  </p>
+
+  <p> Would you like to receive our quarterly catalog?
+    <br />
+    <label>
+      <input type="radio" name="catalog" value="yes" /> Yes, please!
+      <br />
+    </label>
+    <label>
+      <input type="radio" name="catalog" value="no" /> No, thanks.
+    </label>
+  </p>
+
+  <input type="submit" value="SUBMIT" />
+</form>
+
+</div>
+</body>
+</html>
